@@ -1,0 +1,33 @@
+General
+^^^^^^^
+This archive contains my implementation of the harris corner detection
+algorithm.  The resulting images are saved in the "output_images" directory.
+
+Environment
+^^^^^^^^^^^
+This was developed and tested on my Macintosh G4 Powerbook running OSX Version
+10.4.1, and MacPython version 2.4.
+
+Requirements
+^^^^^^^^^^^^
+This program requires the python imaging library (tested with PIL 10.1.3 and
+10.1.4), and python 2.4.
+
+Examples
+^^^^^^^^ 
+python corner_harris rob_vs_bull.jpg
+
+Files
+^^^^^
+README - this file
+RobMask.py - reads a mask from a file, and performs convolution
+corner_harris.py - program implementing the harris corner detector
+gpl.txt - the license this program is released under
+prewitt.coe - coefficients for my edge detector
+
+Licensing
+^^^^^^^^^
+I release all of this code under version 2 of the GPL.  A copy of this license
+can be found in gpl.txt.
+
+Rob Lass (r o b _dot_ lass_at_ gmail _dot_ com), 06/19/2005

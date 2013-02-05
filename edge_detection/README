@@ -1,0 +1,33 @@
+General
+^^^^^^^
+This archive contains two python scripts.  edge_roberts.py was written first,
+and it performs edge detection based on the Roberts algorithm.  RobMask.py was
+written next, based on edge_roberts.py.  It performs edge detection using any
+3x3 mask you give it.
+
+The output images are saved in a directory called "output_images".
+
+Environment
+^^^^^^^^^^^
+This was developed and tested on my Macintosh G4 Powerbook running OSX Version
+10.4.0 and Python version 2.3.
+
+Requirements
+^^^^^^^^^^^^
+This program requires python2, the python imaging library (PIL), and has been
+tested with versions 10.1.4 and 10.1.3.  For RobMask.py, you will also need a
+file with coefficients in it to apply to the image.  sobel.coe and prewitt.coe
+are given as examples.
+
+Example Invocations
+^^^^^^^ ^^^^^^^^^^^
+python edge_roberts.py rob_vs_bull.jpg
+python RobMask.py sobel.coe rob_vs_bull.jpg
+python RobMask.py prewitt.coe rob_vs_bull.jpg
+
+Licensing
+^^^^^^^^^
+All of this code is released under version 2 of the GPL.  A copy of this
+license can be found in gpl.txt.
+
+Comments?  E-mail me at: r o b _dot_ lass _at_ gmail _dot_ com
