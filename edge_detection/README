@@ -25,6 +25,11 @@ python edge_roberts.py rob_vs_bull.jpg
 python RobMask.py sobel.coe rob_vs_bull.jpg
 python RobMask.py prewitt.coe rob_vs_bull.jpg
 
+For an idea of what the output looks like, I have included rob_vs_bull.png,
+which was used as input to the roberts edge detector and
+rob_vs_bull_example_output.png, which is an image showing the lines detected
+by the program.
+
 Licensing
 ^^^^^^^^^
 All of this code is released under version 2 of the GPL.  A copy of this

@@ -15,7 +15,12 @@ This program requires the python imaging library (tested with PIL 10.1.3 and
 
 Examples
 ^^^^^^^^ 
-python corner_harris rob_vs_bull.jpg
+python corner_harris rob_vs_bull.png
+
+I've included a file rob_vs_bull.png, used as input, and
+rob_vs_bull_example_output.png, which is the output produced by the harris
+corner detector.  You can see, among other things, how diagonal lines cause
+problems with this algorithm.
 
 Files
 ^^^^^
